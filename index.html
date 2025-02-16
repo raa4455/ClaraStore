@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Timmana&display=swap" rel="stylesheet">
+    <title>Clara Store</title>
+    <style>
+        @media (min-width: 768px) {
+            body {
+                display: block;
+            }
+        }
+        body {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #bfb8b8;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .logo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .contact-links {
+            margin-top: 10px;
+        }
+        .contact-links a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #333;
+        }
+        .contact-links a img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            vertical-align: middle;
+        }
+        h1 {
+            font-family: "Cinzel", serif;
+        }
+        h2 {
+            font-family: "Cinzel", serif;
+            margin-top: 40px;
+            opacity: 9; /* Initially hidden */
+            transform: translateY(20px); /* Slide up from 20px below */
+            animation: fadeInUp 3s forwards; /* Apply the fadeInUp animation */
+        }
+        h3 {
+            margin-top: 100px;
+        }
+        
+        /* Keyframes for fadeInUp animation */
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome To Our Store</h2>
+    <div class="container">
+        <img src="1.jpg" alt="Logo" class="logo">
+        <h1>Clara Store</h1>
+        <h3>Contact us:</h3>
+        <div class="contact-links">
+            <a href="https://www.facebook.com/share/159XQ792ba/?mibextid=wwXIfr" target="_blank"><img src="2.jpg" alt="Facebook"> Facebook</a>
+            <a href="https://www.tiktok.com/@clara_store5?_t=ZS-8txwSQaNCdT&_r=1" target="_blank"><img src="3.jpg" alt="TikTok"> TikTok</a><br>
+            <a href="https://www.instagram.com/invites/contact/?igsh=2tfhrovxh4fg&utm_content=xfr00rp" target="_blank"><img src="6.jpg" alt="Instagram"> Instagram</a>
+            <a href="https://t.me/clarastore11" target="_blank"><img src="5.jpg" alt="Telegram"> Telegram</a>
+        </div>
+    </div>
+</body>
+</html>
